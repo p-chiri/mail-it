@@ -3,7 +3,7 @@ import './Header.css'
 import MenuIcon from '@material-ui/icons/Menu';
 import { Avatar, IconButton } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
-import { ArrowDropDown } from '@material-ui/icons';
+import TuneIcon from '@material-ui/icons/Tune';
 import AppsIcon from '@material-ui/icons/Apps';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 
@@ -21,7 +21,7 @@ function Header() {
         <div className="header_middle">
             <SearchIcon />
             <input placeholder='search' type='text' />
-            <ArrowDropDown className='Header_InputCaret'/>
+            <TuneIcon className='Header_InputCaret'/>
         </div>
         <div className="header_right">
             <IconButton>
